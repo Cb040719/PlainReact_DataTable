@@ -1,0 +1,60 @@
+.MainTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    
+    table{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 8px;
+
+        tr {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+
+            th {
+                padding: 16px;
+                background:  rgb(42, 97, 94);
+                border-radius: 4px;
+                margin: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            td{
+                
+                padding: 8px;
+                border-radius: 4px;
+                background-color: rgb(89, 89, 89);
+                margin: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .bottomWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 100px;
+    }
+    
+    button {
+        color: white;
+        padding: 8px;
+        background: none;
+        border: 1px solid white;
+        border-radius: 8px;
+        height: fit-content;
+    }
+    
+    button:hover {
+        background: rgba(255, 255, 255, 0.344);
+        cursor: pointer;
+    }
+}
